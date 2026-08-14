@@ -1,0 +1,1 @@
+{"name":"realtime-interpreter-web","private":true,"version":"1.0.0","type":"module","scripts":{"dev":"vite","build":"tsc --noEmit && vite build","lint":"tsc --noEmit"},"dependencies":{"react":"latest","react-dom":"latest"},"devDependencies":{"@vitejs/plugin-react":"latest","vite":"latest","typescript":"latest","@types/react":"latest","@types/react-dom":"latest"}}

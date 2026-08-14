@@ -1,0 +1,33 @@
+# Local Azure Functions settings (may contain secrets)
+**/local.settings.json
+
+# .NET build output
+**/bin/
+**/obj/
+
+# Node/Vite dependencies and build output
+**/node_modules/
+web/dist/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Test coverage and results
+coverage/
+TestResults/
+
+# Logs
+*.log
+
+# IDE settings
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Operating-system files
+.DS_Store
+Thumbs.db
